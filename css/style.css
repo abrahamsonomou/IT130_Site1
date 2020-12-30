@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.articles{
+    text-align: center;
+}
+
+.articles div{
+    width: 22%;
+    height: 200px;
+    margin: 3px;
+    display: inline-block;
+    border-radius: 3px ;
+    margin-bottom: -20px;
+      margin-top: 30px;
+}
+
+.sous-titre{
+    font-size: 1.6em;
+}
+.articles div .btn-articles{
+    background-color: rgb(6, 4, 15);
+    height: 40px;
+    width: 330px;
+     
+    border: none;
+    color: white;
+}
+
+ 
+.img-article{
+    width: 100%;
+   
+}
+
+.img-cours{
+    width: 100%;
+    height: 170px;
+}
+
+.lespdf{
+    text-align: center;
+}
+.lespdf div{
+    width: 30%;
+    height: 200px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 3px ;
+    margin-bottom: 25px;
+}
+
+ .btn-ajoutpanier{
+    margin-top: 30px;
+    background-color:#727778;
+    width: 160px;
+    height: 40px;
+    color: white;
+    border: none;
+}
+
+.footer{
+    width: 100%;
+    margin-bottom: 0px;
+    background-color: #424a6b;
+    margin-top: 20px;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 10px;
+     margin-right: 50px;
+}
+
+.footer p{
+    color: white;
+    font-size: 1em;
+}
+
+.footer img{
+   margin-top: 10px; 
+}
+.logo_f{
+    margin-left: 60px;
+    margin-bottom: -15px;
+}
+
+#logo_p{
+   margin-right:80px;
+   margin-bottom: -35px;
+}
+.menu{
+    width: 100%;
+    height: 70px;
+    margin: 0px auto;
+     background-color: #f7f5f4;
+}
+
+.menu ul{
+    padding: 0px;  
+}
+
+.menu ul li{
+    float: left;
+    list-style: none;
+    opacity: 0.9;
+    width: 120px;
+    height: 70px;
+    
+}
+
+
+.menu ul li a{
+    
+    color: rgb(14, 11, 11);
+    text-decoration: none;
+    font-size: 1.3em;
+    text-align: right; 
+    line-height: 70px;
+}
+
+.nav{
+    margin-top: -65px;
+    margin-left: 880px;
+    margin-bottom: 20px;
+}
+
+
+.menu ul li ul{
+    display: none;
+}
+
+.menu ul li:hover>ul{
+    display: block;
+}
+
+.menu ul li:hover{
+    background-color:white;
+}
+
+.menu ul li:hover a{
+    color: black;
+}
+
+.menu ul li:active{
+    background-color:white;
+}
+
+.menu ul li:active a{
+    color: black;
+}
+
+.menu ul li ul li{
+    position: relative;
+}
+
+.menu ul li ul li ul {
+    position: absolute;
+    left: 200px;
+    top: 0px;
+}
+
+.tout_article{
+    font-size: 3em;
+   margin-top: 25px;
+}
+
+/* page contact*/
+section form legend p{
+    font-size: 3em;
+}
+
+section form label{
+    font-size: 1.2em;
+}
+
+section form>input{
+    width: 360px;
+    height: 40px;
+}
+
+.form{
+    margin-left: 30px;
+}
+
+.btn{
+    width: 140px;
+    background-color: #70767c;
+    opacity: 0.9;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+#message{
+    width: 85%;
+    height: 300px;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+.p{
+    font-size: 3em;
+    padding: 4px;
+     
+}
+
+.nn{
+    margin-top: -60px;
+    margin-left: 15px;
+}
+.panier{
+    margin-left: 40px;
+}
+
+.panier-text{
+    width: 95%;
+    height: 60px;
+    background-color: #1d73be;
+    opacity: 0.9;
+    color: white;
+    line-height: 63px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 3px;
+
+}
+.panier-text p{
+    width: 10px;
+    background-color:#135184;
+    height: 60px;
+}
+
+.btn_boutique{
+    background-color:#666666 ;
+    margin-top: 10px;
+    height: 40px;
+    width: 180px;
+    border-radius: 2px;
+    color: white;
+    border: none;
+    font-size: 1.1em;
+    margin-bottom: 325px;
+}
+
+.btn_boutique:hover, .btn-articles:hover, .btn-ajoutpanier:hover{
+    background-color: #135184;
+}
+
+
+
+/* Le menu acceuil*/
+ #imgac{
+     width: 100%;
+     height: 540px;
+ }
+
+ .tt{
+     margin-top: -320px;
+ }
+.tt h1{
+    color: white;
+    font-size: 4em;
+}
+
+.tt p{
+    color: white;
+    font-size: 3em;
+}
+ .ss{
+     margin-top: 220px;
+ }
+ .ss h1{
+     font-size: 3em;
+     padding-bottom: 20px;
+ }
+
+ .ss p{
+     font-size: 2em;
+     padding-bottom: 30px;
+ }
+
+ .ss img{
+     margin-right: 50px;
+ }
+
+ .dd {
+     width: 400px;
+     height: 35px;
+     background-color: #465592;
+     border-radius: 8px;
+     margin-bottom: 20px;
+ }
+
+ .dd a{
+     color: white;
+     text-decoration: none;
+     line-height: 60px;
+ }
+
+ .dd:hover{
+     width: 400px;
+     height: 35px;
+     background-color: #465592;
+     opacity: 0.8;
+     border-radius: 8px;
+ }
+
+ .aaa{
+     width: 100%;
+     height: 500px;
+     background-color: #0a0a0a;
+     border-radius: 0px 50px 0px 100px;
+     margin-bottom: 50px;
+
+ }
+
+ .aaa h1{
+     color: white;
+     padding-top: 40px;
+     padding-bottom: 50px;
+     font-size: 2.5em;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ .aaa p{
+     color: white;
+     padding-bottom: 10px;
+     padding-bottom: 20px;
+     font-size: 1.5em;
+ }
+
+ .aaa .ul1 li{
+     float: left;
+     list-style: none;
+     text-decoration: none;
+     width: 18%;
+     background-color: #3d3d3d;
+     height: 50px;
+     border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+ }
+
+ .aaa .ul1 li a{
+     text-decoration: none;
+     color: white;
+     font-size: 1.2em;
+     line-height: 50px;
+ }
+
+ .aaa .ul2 li{
+     float: left;
+     list-style: none;
+     text-decoration: none;
+     width: 18%;
+     background-color: #3d3d3d;
+     height: 80px;
+     border-radius: 10px;
+    margin-right: 20px;
+     margin-bottom: 30px;
+ }
+
+  .aaa .ul2 li a{
+     text-decoration: none;
+     color: white;
+     font-size: 1.2em;
+     line-height: 40px;
+ }
+
+
+ .aaa .ul3 li{
+     float: left;
+     list-style: none;
+     text-decoration: none;
+     width: 47%;
+     background-color: #3d3d3d;
+     height: 50px;
+     border-radius: 10px;
+    margin-right: 20px;
+ }
+
+  .aaa .ul3 li a{
+     text-decoration: none;
+     color: white;
+     font-size: 1.2em;
+     line-height: 50px;
+ }
+
+ .aaa ul li:hover{
+     background-color: #968d8d;
+     opacity: 0.8;
+ }
+
+ 
+ .aaa .ul1,.ul2,.ul3{
+     margin-left: 4%;
+ }
+
+ .cccc h1{
+    font-size: 2.3em;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+ }
+
+ .cccc p{
+    font-size: 1.5em;
+     padding-bottom: 20px;
+ }
